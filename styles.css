@@ -18,11 +18,9 @@ body {
 }
 .post {
     margin: auto;
-    border-radius: 8px;
     background-color: white;
     width: 420px;
     max-width: 95%;
-    min-height: 600px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -68,8 +66,13 @@ strong {
 }
 
 .body p {
+    margin: 0 0 0.5em;
     white-space: normal;
     overflow-wrap: break-word;
+}
+
+.body p:last-child {
+    margin-bottom: 1.4em;
 }
 
 img {
